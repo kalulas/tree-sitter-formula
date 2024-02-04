@@ -1,6 +1,6 @@
 // formula.txt contains all features of language 'formula'
 Attribute = MulCollection1(*) * SystemB * _SystemC + var:VariableWithDefault(1.14f)[-3f, 3f]
-SystemB /* comment on Equation */ = AddCollection1(+) * AddCollection2(+) * AddCollection3(*)
-_SystemC = (AddCollectionWithRange(+)[-1.5, 3.6] + (_Collection1(+) + _Collection2(*))) * _Collection3(+)
+SystemB /* comment on Equation */ = 2.0f + AddCollection1(+) * AddCollection2(+) * AddCollection3(*)
+_SystemC[0.8, 1.2] = 1 + (AddCollectionWithRange(+)[-1.5, 3.6] + (_Collection1(+) + _Collection2(*))) * _Collection3(+)
 
 // author: edwardchen

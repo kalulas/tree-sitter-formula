@@ -56,7 +56,7 @@ module.exports = grammar({
             ']',
         ),
 
-        identifier: $ => /[A-Za-z_]?[A-Za-z0-9_]+/,
+        identifier: $ => /[A-Za-z_][A-Za-z0-9_]+/,
 
         // reference: https://yarnpkg.com/package?name=float-regex
         number: $ => /[-+]?(?:\d*\.?\d+|\d+\.?\d*)(?:[eE][-+]?\d+)?[fF]?/,
